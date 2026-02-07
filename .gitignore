@@ -24,6 +24,7 @@ build/
 .env*.local
 .vscode/
 .idea/
+.claude/
 
 # Turborepo
 .turbo/
