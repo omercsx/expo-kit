@@ -1,0 +1,54 @@
+{
+  "name": "@expo-kit/ui",
+  "version": "0.0.1",
+  "description": "Production-ready component library for Expo & React Native",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "clean": "rm -rf dist node_modules coverage"
+  },
+  "peerDependencies": {
+    "expo": ">=52.0.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.76.0",
+    "react-native-gesture-handler": ">=2.0.0",
+    "react-native-reanimated": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@testing-library/react-native": "^13.0.0",
+    "@types/jest": "^29.5.0",
+    "@types/react": "^19.0.0",
+    "@types/react-native": "^0.73.0",
+    "eslint": "^9.39.1",
+    "expo": "~54.0.0",
+    "jest": "^29.7.0",
+    "jest-expo": "~54.0.0",
+    "prettier": "^3.7.4",
+    "react": "^19.0.0",
+    "react-native": "^0.83.0",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-reanimated": "^3.17.0",
+    "react-test-renderer": "^19.2.0",
+    "typescript": "5.9.2"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "component-library",
+    "ui-kit",
+    "design-system"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omercsx/expo-kit.git",
+    "directory": "packages/expo-kit"
+  }
+}

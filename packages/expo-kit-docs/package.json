@@ -1,0 +1,14 @@
+{
+  "name": "@expo-kit/docs",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Interactive documentation app for Expo Kit",
+  "scripts": {
+    "dev": "echo 'Initialize with Expo in Step 3.1'",
+    "clean": "rm -rf node_modules .expo"
+  },
+  "dependencies": {
+    "@expo-kit/ui": "workspace:*"
+  },
+  "license": "MIT"
+}

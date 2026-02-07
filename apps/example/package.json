@@ -1,0 +1,14 @@
+{
+  "name": "@expo-kit/example",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Example implementation using Expo Kit components",
+  "scripts": {
+    "dev": "echo 'Initialize with Expo in a later step'",
+    "clean": "rm -rf node_modules .expo"
+  },
+  "dependencies": {
+    "@expo-kit/ui": "workspace:*"
+  },
+  "license": "MIT"
+}
