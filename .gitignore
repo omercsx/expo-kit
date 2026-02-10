@@ -41,3 +41,8 @@ pnpm-debug.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# AI
+CLAUDE.md
+.claude/
+AGENTS.md
