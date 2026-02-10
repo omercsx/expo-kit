@@ -1,1 +1,1 @@
-// Hook exports will be added as hooks are built
+export * from './useTheme';
