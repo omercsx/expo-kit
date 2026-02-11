@@ -1,7 +1,7 @@
 {
   "name": "example-app",
   "version": "1.0.0",
-  "main": "expo-router",
+  "main": "index.ts",
   "scripts": {
     "start": "expo start -c",
     "android": "expo start --android",
